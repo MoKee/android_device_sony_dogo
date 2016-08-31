@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/dogo/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/dogo/bluetooth
 
-TARGET_KERNEL_CONFIG := cm_fusion3_dogo_defconfig
+TARGET_KERNEL_CONFIG := mokee_fusion3_dogo_defconfig
 
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
@@ -36,4 +36,4 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 4923387904
 
-BOARD_HARDWARE_CLASS += device/sony/dogo/cmhw
+BOARD_HARDWARE_CLASS += device/sony/dogo/mkhw
